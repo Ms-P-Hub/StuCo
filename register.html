@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    
+        <h2>Register your profile</h2>
+        <div class="box">
+            <div class = "login-form">
+                <div class="input-group">
+                    <label for="name" class="form-label">Fullnames</label>
+                    <input type="text" name="name" class = "input" value="" required/>         
+                </div>
+
+                <div class="input-group">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input type="text" class="input" name="phone" value="" required />
+                    
+                </div>
+
+                <div class="input-group">
+                    <div class="select-list">
+                        <select name="subject" id="subject" required>
+                            <option value="">Subjects of interest</option>
+                            <option value="math">Mathematics</option>
+                            <option value="phy">Physical Sciences</option>
+                            <option value="acc">Accounting</option>
+                            <option value="eng">English</option>
+                            <option value="geo">Geography</option>
+                            <option value="lifeSci">Life Sciences</option>
+                            <option value="his">History</option>
+                            <option value="agr">Agriculture</option>
+                            <option value="bus">Business Studies</option>
+                            <option value="fou">Foundation-phase subjects</option>
+                            <option value="int">Intermediate-phase subjects</option>
+                           
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="select-list">
+                        <select name="role" id="role" required>
+                            <option value="">Role</option>
+                            <option value="student">Student</option>
+                            <option value="tutor">Tutor</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="label-radio"> Select Your Current(Grade)</label>
+                        <div class="radio-item-list">
+                            <span class="radio-item">
+                                <input type="radio" name="grade" value="8" id="grd8" />
+                                <label for="grd8">8</label>
+                            </span>
+                            <span class="radio-item active">
+                                <input type="radio" name="grade" value="9" id="grd9" checked="checked" />
+                                <label for="grd9">9</label>
+                            </span>
+                            <span class="radio-item">
+                                <input type="radio" name="grade" value="10" id="grd10" />
+                                <label for="grd10">10</label>
+                            </span>
+                            <span class="radio-item">
+                                <input type="radio" name="grade" value="11" id="grd11" />
+                                <label for="grd11">11</label>
+                            </span>
+                            <span class="radio-item">
+                                <input type="radio" name="grade" value="12" id="grd12" />
+                                <label for="grd12">12</label>
+                            </span>
+                            <span class="radio-item">
+                                <input type="radio" name="grade" value="A" id="allGrades" />
+                                <label for="allGrades">All</label>
+                            </span>
+                        </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" name = "password" class="input" data-type="password">
+                </div>
+
+                <div class="input-group">
+                    <label for="pass" class="label">Repeat Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                </div>
+
+                <div class="input-group">
+                    <input id = "btn" type="submit" name = "submit" value = "Sign-Up">
+                </div>
+
+                <div class="hr"></div>
+                <div class="foot-lnk">
+                    <label for="tab-1">Already Member?</a>
+                </div>
+            </div>
+            
+        </div>
+       
+
+    <footer>
+
+    </footer>
+
+    <script src = "index.js"></script>
+</body>
+</html>
